@@ -96,7 +96,7 @@ struct ContentView: View {
                     ProgressView(value: progress)
                         .progressViewStyle(.linear)
                         .tint(.accentColor)
-                        .padding(.horizontal)
+                        .padding(.leading)
                 } else {
                     Spacer()
                 }
